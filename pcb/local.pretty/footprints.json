@@ -1,0 +1,194 @@
+{
+    /*"WAGO2059-452": {
+        "description": "SMD terminal block 0.14 - 0.34mm² / 26 - 22 AWG (https://www.wago.com/de/leiterplattenanschluss/smd-leiterplattenklemme-im-gurt/p/2059-302_998-403)",
+        "body": [5.9, 7.4, 2.7],
+        "margin": [0.05, 0],
+        "pads": [
+            {
+                "position": [0, -0.25],
+                "type": "zigzag",
+                "distance": 8.7,
+                "size": [1.4, 2.5],
+                "offset": [0, -1.25],
+                "pitch": 3,
+                "count": 4,
+                "double": true
+            }
+        ]
+    },
+    "WAGO2060-452": {
+        "description": "SMD terminal block 2 positions, 0.2 - 0.75mm² / 24 - 18 AWG (https://www.wago.com/de/leiterplattenanschluss/smd-leiterplattenklemme-mit-betaetigungsdrueckern-im-gurt/p/2060-452_998-404)",
+        "body": [7.90, 12.7, 4.5],
+        "margin": [0.05, 0],
+        "pads": [
+            {
+                "position": [0, 3.8],
+                "size": [2, 6],
+                "pitch": 4,
+                "count": 2
+            },
+            {
+                "position": [0, -5.45],
+                "size": [2, 3.5],
+                "pitch": 4,
+                "count": 2
+            }
+        ]
+    },*/
+    "WAGO2061-602": {
+        "description": "SMD terminal block 2 positions, 0.25 - 1.5mm² / 20 - 16 AWG (https://www.wago.com/de/leiterplattenanschluss/smd-leiterplattenklemme-mit-betaetigungsdrueckern-im-gurt/p/2061-602_998-404)",
+        "body": [11.70, 15.2, 5.6],
+        "margin": [0.05, 0],
+        "pads": [
+            {
+                "position": [0, 4.75],
+                "size": [2.1, 6.5],
+                "pitch": 6,
+                "count": 2
+            },
+            {
+                "position": [0, -6.35],
+                "size": [2.4, 4.5],
+                "pitch": 6,
+                "count": 2
+            }
+        ]
+    },
+    "Harting14110413002000": {
+        "description": "har-flexicon 2,54 MSH-4 T32 (https://b2b.harting.com/ebusiness/de/har-flexicon-254-MSH-4-T32-BK-600pcs/14110413002000?newPDP=true#)",
+        "body": [15.8, 6.1, 5],
+        "offset": [0, -0.5, 0],
+        "margin": -0.075,
+        "pads": [
+            {
+                "size": [1.1, 6],
+                "pitch": 2.54,
+                "count": 6,
+                "names": ["MP1", "1", "2", "3", "4", "MP2"]
+            },
+            {
+                "drillSize": 0.9,
+                "count": 1,
+                "position": [-5.08, -0.25]
+            },
+            {
+                "drillSize": 0.9,
+                "count": 1,
+                "position": [5.08, 0.25]
+            }
+        ]
+    },
+    "Kyocera-009176002001906": {
+        "description": "Kyocera IDC 2 positions 0.8mm² / 18 AWG (https://datasheets.kyocera-avx.com/StandardIDC_00-9176.pdf)",
+        "body": [8, 5, 5.1],
+        "pads": [
+            {
+                "size": [3, 5.4],
+                "pitch": 4,
+                "count": 2
+            }
+        ]
+    },
+    "Holes": {
+        "description": "Solder holes",
+        "pads": [
+            {
+                "size": [2, 2],
+                "drillSize": 1.4,
+                "pitch": 2.54,
+                "count": 3
+            }
+            /*{
+                "drillSize": 0.4,
+                "pitch": 2.54,
+                "count": 2
+            },
+            {
+                "position": [-7.8, 0],
+                "drillSize": 0.6,
+                "pitch": 0.95,
+                "count": 9
+            }*/
+        ],
+        "lines": [
+            {
+                "layer": "F.SilkS",
+                "width": 0.1,
+                "points": [-4, 0, -12, 0]
+            },
+            {
+                "layer": "B.SilkS",
+                "width": 0.1,
+                "points": [-4, 0, -12, 0]
+            }
+        ]
+    },
+    "HolesL": {
+        "description": "Solder holes with left extension",
+        "pads": [
+            {
+                "size": [2, 2.3],
+                "offset": [0, 0.15],
+                "drillSize": 1.4,
+                "pitch": 2.54,
+                "count": 3
+            }
+            /*{
+                "drillSize": 0.4,
+                "pitch": 2.54,
+                "count": 2
+            },
+            {
+                "position": [-7.8, 0],
+                "drillSize": 0.6,
+                "pitch": 0.95,
+                "count": 9
+            }*/
+        ],
+        "lines": [
+            {
+                "layer": "F.SilkS",
+                "width": 0.1,
+                "points": [-4, 0, -12, 0]
+            },
+            {
+                "layer": "B.SilkS",
+                "width": 0.1,
+                "points": [-4, 0, -12, 0]
+            }
+        ]
+    },
+    "SP485": {
+        "description": "RS-485 Transceiver 5V (https://www.mouser.de/datasheet/2/146/sp485r-1816414.pdf)",
+        "body": [4.90, 3.90, 1.75],
+        "margin": 0.1,
+        "pads": [
+            {
+                "type": "dual",
+                "distance": 6.20,
+                "size": [0.6, 1.2],
+                "offset": [0, -0.6],
+                "pitch": 1.27,
+                "count": 8
+            }
+        ]
+    },
+    "TPS82130": {
+        "description": "Texas Instruments buck converter (http://www.ti.com/lit/ds/symlink/tps82130.pdf#page=19)",
+        "body": [3.00, 2.80, 1.53],
+        "margin": 0.1,
+        "pads": [
+            {
+                "type": "dual",
+                "distance": 2.1,
+                "size": [0.4, 0.5],
+                "pitch": 0.65,
+                "count": 8
+            },
+            {
+                "size": [1.9, 1.1],
+                "number": 9
+            }
+        ]
+    }
+}
