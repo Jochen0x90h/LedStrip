@@ -802,7 +802,7 @@
 				)
 			)
 		)
-		(symbol "Interface_UART:ISL3280ExHZ"
+		(symbol "Interface_UART:ISL3281ExHZ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -815,7 +815,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ISL3280ExHZ"
+			(property "Value" "ISL3281ExHZ"
 				(at 2.54 8.89 0)
 				(effects
 					(font
@@ -824,7 +824,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 				(at 2.54 13.97 0)
 				(effects
 					(font
@@ -835,15 +835,6 @@
 				)
 			)
 			(property "Datasheet" "https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf"
-				(at -22.86 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -852,7 +843,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Interface Driver Receiver Transceiver"
+			(property "Description" "RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Interface - Driver Receiver Transceiver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -870,7 +870,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "ISL3280ExHZ_0_1"
+			(symbol "ISL3281ExHZ_0_1"
+				(polyline
+					(pts
+						(xy 0.762 -0.762) (xy 0.762 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 7.62)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ISL3281ExHZ_1_1"
 				(circle
 					(center -1.651 -1.2954)
 					(radius 0.3556)
@@ -919,19 +944,6 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 7.62 7.62)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "ISL3280ExHZ_1_1"
 				(pin power_in line
 					(at 0 10.16 270)
 					(length 2.54)
@@ -1005,6 +1017,24 @@
 					)
 				)
 				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "RE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "A"
@@ -1014,7 +1044,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1903,6 +1933,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 129.54) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58234d51-00ff-4ce4-b8b3-1cc72b203fb5")
+	)
+	(wire
+		(pts
 			(xy 110.49 123.19) (xy 116.84 123.19)
 		)
 		(stroke
@@ -1990,6 +2030,16 @@
 			(type default)
 		)
 		(uuid "8109f209-8dc2-4d7e-bd8e-fbc5af08ea87")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ae0268-394c-4048-b57b-30f63f8c845c")
 	)
 	(wire
 		(pts
@@ -2110,6 +2160,16 @@
 			(type default)
 		)
 		(uuid "af531f17-af80-4cdc-b5f6-572080ee25e2")
+	)
+	(wire
+		(pts
+			(xy 138.43 129.54) (xy 147.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a4a7f5-ab57-4173-9784-666f885c170f")
 	)
 	(wire
 		(pts
@@ -2273,6 +2333,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 88.9) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7503943-c51a-4be9-bc4f-35b3cad97eda")
+	)
+	(wire
+		(pts
 			(xy 137.16 181.61) (xy 137.16 182.88)
 		)
 		(stroke
@@ -2323,9 +2393,9 @@
 		)
 		(uuid "81361164-8dfc-4657-9940-68d2217ab018")
 	)
-	(text "RS485 receiver"
+	(text "RS485 receiver\nISL3280E / ISL3281E / MAX3280E / MAX3281E"
 		(exclude_from_sim no)
-		(at 121.666 64.008 0)
+		(at 109.728 64.262 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2588,6 +2658,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_UART:ISL3281ExHZ")
+		(at 128.27 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "030a14b6-3c11-4519-a84d-d298e0c8d903")
+		(property "Reference" "U4"
+			(at 130.4641 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL3281E"
+			(at 130.4641 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local:ISL3281E"
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-6"
+			(at 128.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a6a8f87c-dfd6-477a-9bd1-7fed35671d52")
+		)
+		(pin "5"
+			(uuid "08b56567-b0c5-4996-bf6f-d6d64f16be48")
+		)
+		(pin "1"
+			(uuid "e5994d9a-f6db-4310-b5c9-394560c080bd")
+		)
+		(pin "4"
+			(uuid "1c7013b8-6957-4cca-ba52-e128117031b2")
+		)
+		(pin "6"
+			(uuid "d2573135-a2e7-4b71-9c1f-4ca97a4c5faf")
+		)
+		(pin "2"
+			(uuid "57e3e2a8-e797-4f01-9f8a-b86f3ca126f3")
+		)
+		(instances
+			(project "receiver"
+				(path "/b9a04c3c-65eb-4e1c-b3ab-7b6c9af3c411"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 53.34 77.47 0)
 		(unit 1)
@@ -2680,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "local:0603"
 			(at 105.1052 179.07 0)
 			(effects
 				(font
@@ -2921,42 +3074,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:ISL3280ExHZ")
-		(at 128.27 127 0)
+		(lib_id "power:+5V")
+		(at 147.32 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4f42ba5a-ddbd-4030-9d90-03a1ba57c580")
-		(property "Reference" "U4"
-			(at 134.874 115.316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ISL3280ExHZ"
-			(at 134.874 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local:ISL3280E"
-			(at 130.81 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf"
-			(at 105.41 109.22 0)
+		(fields_autoplaced yes)
+		(uuid "595b134c-56a9-4fe6-8620-acd9acc8c48a")
+		(property "Reference" "#PWR020"
+			(at 147.32 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,8 +3092,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-5"
-			(at 128.27 127 0)
+		(property "Value" "+5V_B"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,25 +3109,31 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "4deab9e4-703c-42e4-8bb4-902a73f3d40a")
+		(property "Datasheet" ""
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ce050493-56a1-47c1-a76e-976cddd49a4e")
-		)
-		(pin "2"
-			(uuid "b254bc32-c255-456e-9904-8c1a9359fab6")
-		)
-		(pin "3"
-			(uuid "2450b75f-670a-46ee-9fe3-bb49882a1cb5")
-		)
-		(pin "5"
-			(uuid "1bbb6d6b-9b0f-4705-939b-0a95055a7390")
+			(uuid "ac8c5742-941a-4776-b4c8-0e030a040783")
 		)
 		(instances
 			(project "receiver"
 				(path "/b9a04c3c-65eb-4e1c-b3ab-7b6c9af3c411"
-					(reference "U4")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3280,6 +3422,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_UART:ISL3281ExHZ")
+		(at 128.27 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6682f1bd-f02f-4e5c-bf83-db2143327697")
+		(property "Reference" "U2"
+			(at 130.4641 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ISL3281E"
+			(at 130.4641 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local:ISL3281E"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-6"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "15831d8f-fb16-4de2-b9bd-59e25a069614")
+		)
+		(pin "5"
+			(uuid "f2160f43-2104-4550-9455-bed7debfc556")
+		)
+		(pin "1"
+			(uuid "b92c7ea3-47a3-4331-867b-6e5a2aea2caa")
+		)
+		(pin "4"
+			(uuid "3c25a93c-7cd3-4747-ae7d-43562aaacf2f")
+		)
+		(pin "6"
+			(uuid "b7add30e-eaaa-4d28-977f-c4a8cf8a97a1")
+		)
+		(pin "2"
+			(uuid "371e8bb9-2dfb-464b-af64-0d8cc76382d2")
+		)
+		(instances
+			(project ""
+				(path "/b9a04c3c-65eb-4e1c-b3ab-7b6c9af3c411"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "local:TLV760")
 		(at 92.71 172.72 0)
 		(unit 1)
@@ -3297,7 +3522,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV76050"
+		(property "Value" "TLV76050DBZ"
 			(at 92.71 165.1 0)
 			(effects
 				(font
@@ -3493,7 +3718,7 @@
 		(at 41.91 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6eed4dbc-6de8-4e9b-8edf-217a4686e9af")
@@ -3714,7 +3939,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7e332508-89a2-4593-a1dc-b1c32d423450")
 		(property "Reference" "C3"
 			(at 121.92 176.53 0)
@@ -3734,7 +3959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "local:0603"
 			(at 124.7648 171.45 0)
 			(effects
 				(font
@@ -3781,7 +4006,7 @@
 		(at 41.91 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "814d0c7b-634d-45c3-8070-e3bf52035382")
@@ -3910,90 +4135,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_UART:ISL3280ExHZ")
-		(at 128.27 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a6c8a9b-6d6a-4655-9853-f2311ecf20e0")
-		(property "Reference" "U2"
-			(at 134.874 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ISL3280ExHZ"
-			(at 134.874 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local:ISL3280E"
-			(at 130.81 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.renesas.com/us/en/www/doc/datasheet/isl3280e-81e-82e-83e-84e-85e.pdf"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RS485, RS422, 20Mbps Transceiver, 3.0V to 5.5V, SOT-23-5"
-			(at 128.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "619197ec-1b8a-4508-85b9-7de8a6ec174f")
-		)
-		(pin "1"
-			(uuid "2c96b3c4-4e4a-4d45-aacd-1e63b3a7c29a")
-		)
-		(pin "2"
-			(uuid "90c3b660-d295-4fe6-85d6-031686da6001")
-		)
-		(pin "3"
-			(uuid "2139b87e-062e-4538-8df0-68b5ecb3885d")
-		)
-		(pin "5"
-			(uuid "afa1d865-a7dd-45b8-90b6-1418216414c2")
-		)
-		(instances
-			(project ""
-				(path "/b9a04c3c-65eb-4e1c-b3ab-7b6c9af3c411"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 148.59 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9f8522fb-29af-49d6-a490-8d8ed83b7ec8")
 		(property "Reference" "C4"
 			(at 152.4 173.99 0)
@@ -4013,7 +4161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "local:0603"
 			(at 149.5552 179.07 0)
 			(effects
 				(font
@@ -4060,7 +4208,7 @@
 		(at 176.53 109.22 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4196,7 +4344,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b99f547c-36c2-4567-b526-cc1be69d165c")
 		(property "Reference" "U3"
@@ -4207,7 +4355,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV76050"
+		(property "Value" "TLV76050DBZ"
 			(at 137.16 165.1 0)
 			(effects
 				(font
@@ -4266,7 +4414,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b9b7962f-a35b-41cf-99e8-2236f9f504f4")
@@ -4360,7 +4508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "local:0603"
 			(at 80.3148 171.45 0)
 			(effects
 				(font
@@ -4475,7 +4623,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cae5b8ca-2e23-41d6-b168-3ba8e2031ae3")
 		(property "Reference" "R1"
@@ -4496,7 +4644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "local:1206"
 			(at 108.712 86.36 90)
 			(effects
 				(font
@@ -4543,7 +4691,7 @@
 		(at 190.5 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4682,7 +4830,7 @@
 		(at 246.38 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e3795e85-3276-4003-afe6-d6fb96722f74")
@@ -4826,7 +4974,7 @@
 		(at 176.53 80.01 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4896,7 +5044,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e8b21b6a-6421-4f8a-9682-9ed01b869790")
 		(property "Reference" "R2"
@@ -4917,7 +5065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "local:1206"
 			(at 108.712 127 90)
 			(effects
 				(font
@@ -4954,6 +5102,72 @@
 			(project "receiver"
 				(path "/b9a04c3c-65eb-4e1c-b3ab-7b6c9af3c411"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb1c5f0d-2977-40b2-be5a-f5ed8f76151e")
+		(property "Reference" "#PWR019"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_A"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0e9dccb-4a56-4d9e-b783-448c58f5a624")
+		)
+		(instances
+			(project "receiver"
+				(path "/b9a04c3c-65eb-4e1c-b3ab-7b6c9af3c411"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5030,7 +5244,7 @@
 		(at 190.5 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f76009f3-d68e-44f3-817e-4d0d1d325ba1")
