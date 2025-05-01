@@ -107,6 +107,7 @@
 		(property "Value" "Conn_01x05_Socket"
 			(at 0 0 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "54072e44-3db6-47fa-8bf7-b41c5d0f27ef")
 			(effects
 				(font
@@ -414,7 +415,7 @@
 		(at 134.45 105.195)
 		(descr "Texas Instruments buck converter (https://www.ti.com/product/de-de/TPS82130)")
 		(property "Reference" "U1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5bde5e3d-1085-4f75-978f-b0e657f4fd22")
@@ -426,7 +427,7 @@
 			)
 		)
 		(property "Value" "TPS82130"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4f25d7cd-717e-41e4-a894-1391b892763e")
 			(effects
@@ -769,6 +770,7 @@
 		(property "Value" "Conn_01x05_Socket"
 			(at 0 0 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "45b7f68d-f12a-4b9b-991c-90fa9d194a13")
 			(effects
 				(font
@@ -1491,7 +1493,7 @@
 	(footprint "local:Kyocera-009176002001906"
 		(layer "F.Cu")
 		(uuid "ff72d609-c035-464e-96ba-729c7ec89ed2")
-		(at 135 97.1775 -90)
+		(at 135 97.2 -90)
 		(descr "Kyocera IDC 2 positions 0.8mm² / 18 AWG (https://datasheets.kyocera-avx.com/StandardIDC_00-9176.pdf)")
 		(property "Reference" "J3"
 			(at 0 0 90)
@@ -1801,8 +1803,8 @@
 		(uuid "ed734f5e-526b-44e7-8d11-bb6400a816f7")
 	)
 	(gr_rect
-		(start 130 92.7575)
-		(end 140 109.2575)
+		(start 130 93.2)
+		(end 140 109.2)
 		(stroke
 			(width 0.1)
 			(type default)
