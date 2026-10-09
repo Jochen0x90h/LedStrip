@@ -50,6 +50,13 @@
                 "distance": 4.9,
                 "count": 4
             }
+        ],
+        "lines": [
+            {
+                "layer": "F.SilkS",
+                "width": 0.15,
+                "points": [0.1, 2.65, 2.65, 0.1]
+            }
         ]
     },
     "SO-8": {
